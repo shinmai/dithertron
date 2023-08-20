@@ -484,6 +484,36 @@ const SYSTEMS : DithertronSettings[] = [
         pal:ATARIST_RGB,
         reduce:16
     },
+    {
+        id:'atarist',
+        name:'Atari ST (opened top+bottom)',
+        width:320,
+        height:280,
+        scaleX:1,
+        conv:'DitheringCanvas',
+        pal:ATARIST_RGB,
+        reduce:16
+    },
+    {
+        id:'atarist',
+        name:'Atari ST (fullscreen)',
+        width:408,
+        height:273,
+        scaleX:1,
+        conv:'DitheringCanvas',
+        pal:ATARIST_RGB,
+        reduce:16
+    },
+    {
+        id:'atarist',
+        name:'Atari ST (fullscreen hardscroll)',
+        width:408,
+        height:265,
+        scaleX:1,
+        conv:'DitheringCanvas',
+        pal:ATARIST_RGB,
+        reduce:16
+    },
 ];
 var SYSTEM_LOOKUP = {};
 SYSTEMS.forEach((sys) => { if (sys) SYSTEM_LOOKUP[sys.id||sys.name] = sys; });
