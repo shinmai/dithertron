@@ -485,7 +485,7 @@ const SYSTEMS : DithertronSettings[] = [
         reduce:16
     },
     {
-        id:'atarist',
+        id:'ataristfh',
         name:'Atari ST (opened top+bottom)',
         width:320,
         height:280,
@@ -495,7 +495,7 @@ const SYSTEMS : DithertronSettings[] = [
         reduce:16
     },
     {
-        id:'atarist',
+        id:'ataristfs',
         name:'Atari ST (fullscreen)',
         width:408,
         height:273,
@@ -505,7 +505,7 @@ const SYSTEMS : DithertronSettings[] = [
         reduce:16
     },
     {
-        id:'atarist',
+        id:'ataristfshs',
         name:'Atari ST (fullscreen hardscroll)',
         width:408,
         height:265,
